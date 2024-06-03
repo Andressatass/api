@@ -8,6 +8,7 @@ import (
 	"net/http"
 )
 
+
 func main() {
 	config.Carregar()
 	r := router.Gerar()
